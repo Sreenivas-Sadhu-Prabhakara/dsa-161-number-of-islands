@@ -12,6 +12,13 @@ Connected-component counting with the grid as its own visited set: the outer sca
 
 **Complexity:** O(R·C) time; recursion up to the island size (BFS swaps that for a queue).
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
